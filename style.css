@@ -59,9 +59,19 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
+    header {
+        padding: 10px;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
     header nav ul li {
-        display: block;
-        margin: 0;
+        margin-bottom: 10px;
     }
 
     .profile-img {
